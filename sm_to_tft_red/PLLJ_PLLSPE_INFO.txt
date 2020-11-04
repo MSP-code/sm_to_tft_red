@@ -1,0 +1,10 @@
+PLL_Name	pll_cam:inst5|altpll:altpll_component|pll_cam_altpll:auto_generated|pll1
+PLLJITTER	31
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	PLL_sm:inst|altpll:altpll_component|PLL_sm_altpll:auto_generated|pll1
+PLLJITTER	32
+PLLSPEmax	84
+PLLSPEmin	-53
+

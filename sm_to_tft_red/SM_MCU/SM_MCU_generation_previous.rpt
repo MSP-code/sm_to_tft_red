@@ -1,0 +1,217 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=D:\altera\sm_to_tft_red --output-directory=D:\altera\sm_to_tft_red\SM_MCU --report-file=bsf:D:\altera\sm_to_tft_red\SM_MCU\SM_MCU.bsf --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=D:\altera\sm_to_tft_red\SM_MCU.qsys
+Progress: Loading sm_to_tft_red/SM_MCU.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 14.0]
+Progress: Parameterizing module clk
+Progress: Adding sdram [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module sdram
+Progress: Adding pio_led [altera_avalon_pio 14.0]
+Progress: Parameterizing module pio_led
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 14.0]
+Progress: Parameterizing module onchip_memory
+Progress: Adding LCD_DATA_OUT [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_DATA_OUT
+Progress: Adding LCD_RS [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RS
+Progress: Adding LCD_WR [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_WR
+Progress: Adding LCD_RD [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RD
+Progress: Adding LCD_CS [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_CS
+Progress: Adding LCD_RESET [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RESET
+Progress: Adding SCL [altera_avalon_pio 14.0]
+Progress: Parameterizing module SCL
+Progress: Adding SDA [altera_avalon_pio 14.0]
+Progress: Parameterizing module SDA
+Progress: Adding performance_counter [altera_avalon_performance_counter 14.0]
+Progress: Parameterizing module performance_counter
+Progress: Adding CPU [altera_nios2_qsys 14.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 14.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding VS_int_in [altera_avalon_pio 14.0]
+Progress: Parameterizing module VS_int_in
+Progress: Adding SM_2strobe [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_2strobe
+Progress: Adding SM_1clr [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_1clr
+Progress: Adding SM_1ena [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_1ena
+Progress: Adding SM_mux [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_mux
+Progress: Adding SM_data_in [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_data_in
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SM_MCU.SDA: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SM_MCU.CPU: Please note that for early evaluation, preview versions of new Nios II Gen2 Processors are available with this release.
+Info: SM_MCU.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SM_MCU.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: SM_MCU.VS_int_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SM_MCU.SM_data_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=D:\altera\sm_to_tft_red --output-directory=D:\altera\sm_to_tft_red\SM_MCU\synthesis --file-set=QUARTUS_SYNTH --report-file=html:D:\altera\sm_to_tft_red\SM_MCU\SM_MCU.html --report-file=sopcinfo:D:\altera\sm_to_tft_red\SM_MCU.sopcinfo --report-file=cmp:D:\altera\sm_to_tft_red\SM_MCU\SM_MCU.cmp --report-file=qip:D:\altera\sm_to_tft_red\SM_MCU\synthesis\SM_MCU.qip --report-file=svd:D:\altera\sm_to_tft_red\SM_MCU\synthesis\SM_MCU.svd --report-file=regmap:D:\altera\sm_to_tft_red\SM_MCU\synthesis\SM_MCU.regmap --report-file=xml:D:\altera\sm_to_tft_red\SM_MCU\SM_MCU.xml --report-file=debuginfo:D:\altera\sm_to_tft_red\SM_MCU\synthesis\SM_MCU.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV E" --system-info=DEVICE=EP4CE22F17C6 --system-info=DEVICE_SPEEDGRADE=6 --component-file=D:\altera\sm_to_tft_red\SM_MCU.qsys --language=VERILOG
+Progress: Loading sm_to_tft_red/SM_MCU.qsys
+Progress: Reading input file
+Progress: Adding clk [clock_source 14.0]
+Progress: Parameterizing module clk
+Progress: Adding sdram [altera_avalon_new_sdram_controller 14.0]
+Progress: Parameterizing module sdram
+Progress: Adding pio_led [altera_avalon_pio 14.0]
+Progress: Parameterizing module pio_led
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 14.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding onchip_memory [altera_avalon_onchip_memory2 14.0]
+Progress: Parameterizing module onchip_memory
+Progress: Adding LCD_DATA_OUT [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_DATA_OUT
+Progress: Adding LCD_RS [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RS
+Progress: Adding LCD_WR [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_WR
+Progress: Adding LCD_RD [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RD
+Progress: Adding LCD_CS [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_CS
+Progress: Adding LCD_RESET [altera_avalon_pio 14.0]
+Progress: Parameterizing module LCD_RESET
+Progress: Adding SCL [altera_avalon_pio 14.0]
+Progress: Parameterizing module SCL
+Progress: Adding SDA [altera_avalon_pio 14.0]
+Progress: Parameterizing module SDA
+Progress: Adding performance_counter [altera_avalon_performance_counter 14.0]
+Progress: Parameterizing module performance_counter
+Progress: Adding CPU [altera_nios2_qsys 14.0]
+Progress: Parameterizing module CPU
+Progress: Adding sysid_qsys [altera_avalon_sysid_qsys 14.0]
+Progress: Parameterizing module sysid_qsys
+Progress: Adding VS_int_in [altera_avalon_pio 14.0]
+Progress: Parameterizing module VS_int_in
+Progress: Adding SM_2strobe [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_2strobe
+Progress: Adding SM_1clr [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_1clr
+Progress: Adding SM_1ena [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_1ena
+Progress: Adding SM_mux [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_mux
+Progress: Adding SM_data_in [altera_avalon_pio 14.0]
+Progress: Parameterizing module SM_data_in
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SM_MCU.SDA: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SM_MCU.CPU: Please note that for early evaluation, preview versions of new Nios II Gen2 Processors are available with this release.
+Info: SM_MCU.sysid_qsys: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: SM_MCU.sysid_qsys: Time stamp will be automatically updated when this component is generated.
+Info: SM_MCU.VS_int_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SM_MCU.SM_data_in: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: SM_MCU: Generating SM_MCU "SM_MCU" for QUARTUS_SYNTH
+Info: sdram: Starting RTL generation for module 'SM_MCU_sdram'
+Info: sdram:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=SM_MCU_sdram --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0001_sdram_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0001_sdram_gen//SM_MCU_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'SM_MCU_sdram'
+Info: sdram: "SM_MCU" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: pio_led: Starting RTL generation for module 'SM_MCU_pio_led'
+Info: pio_led:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_pio_led --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0002_pio_led_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0002_pio_led_gen//SM_MCU_pio_led_component_configuration.pl  --do_build_sim=0  ]
+Info: pio_led: Done RTL generation for module 'SM_MCU_pio_led'
+Info: pio_led: "SM_MCU" instantiated altera_avalon_pio "pio_led"
+Info: jtag_uart: Starting RTL generation for module 'SM_MCU_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SM_MCU_jtag_uart --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0003_jtag_uart_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0003_jtag_uart_gen//SM_MCU_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'SM_MCU_jtag_uart'
+Info: jtag_uart: "SM_MCU" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: onchip_memory: Starting RTL generation for module 'SM_MCU_onchip_memory'
+Info: onchip_memory:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SM_MCU_onchip_memory --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0004_onchip_memory_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0004_onchip_memory_gen//SM_MCU_onchip_memory_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory: Done RTL generation for module 'SM_MCU_onchip_memory'
+Info: onchip_memory: "SM_MCU" instantiated altera_avalon_onchip_memory2 "onchip_memory"
+Info: LCD_DATA_OUT: Starting RTL generation for module 'SM_MCU_LCD_DATA_OUT'
+Info: LCD_DATA_OUT:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_LCD_DATA_OUT --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0005_LCD_DATA_OUT_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0005_LCD_DATA_OUT_gen//SM_MCU_LCD_DATA_OUT_component_configuration.pl  --do_build_sim=0  ]
+Info: LCD_DATA_OUT: Done RTL generation for module 'SM_MCU_LCD_DATA_OUT'
+Info: LCD_DATA_OUT: "SM_MCU" instantiated altera_avalon_pio "LCD_DATA_OUT"
+Info: LCD_RS: Starting RTL generation for module 'SM_MCU_LCD_RS'
+Info: LCD_RS:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_LCD_RS --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0006_LCD_RS_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0006_LCD_RS_gen//SM_MCU_LCD_RS_component_configuration.pl  --do_build_sim=0  ]
+Info: LCD_RS: Done RTL generation for module 'SM_MCU_LCD_RS'
+Info: LCD_RS: "SM_MCU" instantiated altera_avalon_pio "LCD_RS"
+Info: SCL: Starting RTL generation for module 'SM_MCU_SCL'
+Info: SCL:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_SCL --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0007_SCL_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0007_SCL_gen//SM_MCU_SCL_component_configuration.pl  --do_build_sim=0  ]
+Info: SCL: Done RTL generation for module 'SM_MCU_SCL'
+Info: SCL: "SM_MCU" instantiated altera_avalon_pio "SCL"
+Info: SDA: Starting RTL generation for module 'SM_MCU_SDA'
+Info: SDA:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_SDA --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0008_SDA_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0008_SDA_gen//SM_MCU_SDA_component_configuration.pl  --do_build_sim=0  ]
+Info: SDA: Done RTL generation for module 'SM_MCU_SDA'
+Info: SDA: "SM_MCU" instantiated altera_avalon_pio "SDA"
+Info: performance_counter: Starting RTL generation for module 'SM_MCU_performance_counter'
+Info: performance_counter:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_performance_counter/generate_rtl.pl --name=SM_MCU_performance_counter --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0009_performance_counter_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0009_performance_counter_gen//SM_MCU_performance_counter_component_configuration.pl  --do_build_sim=0  ]
+Info: performance_counter: Done RTL generation for module 'SM_MCU_performance_counter'
+Info: performance_counter: "SM_MCU" instantiated altera_avalon_performance_counter "performance_counter"
+Info: CPU: Starting RTL generation for module 'SM_MCU_CPU'
+Info: CPU:   Generation command is [exec C:/altera/14.0/quartus/bin64/eperlcmd.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/nios2_ip/altera_nios2/cpu_lib -I C:/altera/14.0/quartus/../ip/altera/nios2_ip/altera_nios2/nios_lib -I C:/altera/14.0/quartus/../ip/altera/nios2_ip/altera_nios2 -I C:/altera/14.0/quartus/../ip/altera/nios2_ip/altera_nios2 -- C:/altera/14.0/quartus/../ip/altera/nios2_ip/altera_nios2/generate_rtl.epl --name=SM_MCU_CPU --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0010_CPU_gen/ --quartus_bindir=C:/altera/14.0/quartus/bin64 --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0010_CPU_gen//SM_MCU_CPU_processor_configuration.pl  --do_build_sim=0  ]
+Info: CPU: # 2014.08.01 17:02:54 (*) Starting Nios II generation
+Info: CPU: # 2014.08.01 17:02:54 (*)   Checking for plaintext license.
+Info: CPU: # 2014.08.01 17:02:58 (*)   Plaintext license not found.
+Info: CPU: # 2014.08.01 17:02:58 (*)   Checking for encrypted license (non-evaluation).
+Info: CPU: # 2014.08.01 17:03:02 (*)   Encrypted license not found.  Defaulting to OCP evaluation license (produces a time-limited SOF)
+Info: CPU: # 2014.08.01 17:03:02 (*)   Elaborating CPU configuration settings
+Info: CPU: # 2014.08.01 17:03:02 (*)   Creating all objects for CPU
+Info: CPU: # 2014.08.01 17:03:02 (*)     Testbench
+Info: CPU: # 2014.08.01 17:03:02 (*)     Instruction decoding
+Info: CPU: # 2014.08.01 17:03:02 (*)       Instruction fields
+Info: CPU: # 2014.08.01 17:03:02 (*)       Instruction decodes
+Info: CPU: # 2014.08.01 17:03:03 (*)       Signals for RTL simulation waveforms
+Info: CPU: # 2014.08.01 17:03:03 (*)       Instruction controls
+Info: CPU: # 2014.08.01 17:03:03 (*)     Pipeline frontend
+Info: CPU: # 2014.08.01 17:03:04 (*)     Pipeline backend
+Info: CPU: # 2014.08.01 17:03:08 (*)   Generating RTL from CPU objects
+Info: CPU: # 2014.08.01 17:03:12 (*)   Creating encrypted RTL
+Info: CPU: # 2014.08.01 17:03:13 (*) Done Nios II generation
+Info: CPU: Done RTL generation for module 'SM_MCU_CPU'
+Info: CPU: "SM_MCU" instantiated altera_nios2_qsys "CPU"
+Info: sysid_qsys: "SM_MCU" instantiated altera_avalon_sysid_qsys "sysid_qsys"
+Info: VS_int_in: Starting RTL generation for module 'SM_MCU_VS_int_in'
+Info: VS_int_in:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_VS_int_in --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0012_VS_int_in_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0012_VS_int_in_gen//SM_MCU_VS_int_in_component_configuration.pl  --do_build_sim=0  ]
+Info: VS_int_in: Done RTL generation for module 'SM_MCU_VS_int_in'
+Info: VS_int_in: "SM_MCU" instantiated altera_avalon_pio "VS_int_in"
+Info: SM_mux: Starting RTL generation for module 'SM_MCU_SM_mux'
+Info: SM_mux:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_SM_mux --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0013_SM_mux_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0013_SM_mux_gen//SM_MCU_SM_mux_component_configuration.pl  --do_build_sim=0  ]
+Info: SM_mux: Done RTL generation for module 'SM_MCU_SM_mux'
+Info: SM_mux: "SM_MCU" instantiated altera_avalon_pio "SM_mux"
+Info: SM_data_in: Starting RTL generation for module 'SM_MCU_SM_data_in'
+Info: SM_data_in:   Generation command is [exec C:/altera/14.0/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.0/quartus/bin64/perl/lib -I C:/altera/14.0/quartus/sopc_builder/bin/europa -I C:/altera/14.0/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.0/quartus/sopc_builder/bin -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.0/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=SM_MCU_SM_data_in --dir=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0014_SM_data_in_gen/ --quartus_dir=C:/altera/14.0/quartus --verilog --config=C:/Users/KP71/AppData/Local/Temp/alt6283_3095282235765217502.dir/0014_SM_data_in_gen//SM_MCU_SM_data_in_component_configuration.pl  --do_build_sim=0  ]
+Info: SM_data_in: Done RTL generation for module 'SM_MCU_SM_data_in'
+Info: SM_data_in: "SM_MCU" instantiated altera_avalon_pio "SM_data_in"
+Info: mm_interconnect_0: "SM_MCU" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "SM_MCU" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "SM_MCU" instantiated altera_reset_controller "rst_controller"
+Info: CPU_instruction_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "CPU_instruction_master_translator"
+Info: CPU_jtag_debug_module_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "CPU_jtag_debug_module_translator"
+Info: CPU_instruction_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "CPU_instruction_master_agent"
+Info: CPU_jtag_debug_module_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "CPU_jtag_debug_module_agent"
+Info: CPU_jtag_debug_module_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "CPU_jtag_debug_module_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_003: "mm_interconnect_0" instantiated altera_merlin_router "router_003"
+Info: CPU_instruction_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "CPU_instruction_master_limiter"
+Info: Reusing file D:/altera/sm_to_tft_red/SM_MCU/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: sdram_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "sdram_s1_burst_adapter"
+Info: Reusing file D:/altera/sm_to_tft_red/SM_MCU/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/altera/sm_to_tft_red/SM_MCU/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: sdram_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "sdram_s1_rsp_width_adapter"
+Info: Reusing file D:/altera/sm_to_tft_red/SM_MCU/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/altera/sm_to_tft_red/SM_MCU/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: SM_MCU: Done "SM_MCU" with 33 modules, 61 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
